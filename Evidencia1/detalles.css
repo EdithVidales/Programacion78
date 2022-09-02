@@ -1,0 +1,10 @@
+#logo {
+    width: 100px;
+    display:block;
+    margin:auto;
+}
+
+div.carrito {
+    width: 100px;
+    float: right;
+}
