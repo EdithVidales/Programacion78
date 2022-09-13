@@ -25,6 +25,36 @@
                     object-position: center center;" alt="logo"> 
                 </a>
             </div>
+                
+    
+            <div class="carrito_Item" style="height: 60px; width: 50px;">
+                <img src="images/carrito-de-compras.png" width="45" height="51.83" alt="compra">
+            </div>
+        </div>
+    
+        <div class="division"><hr> </div>
+    
+        <div class="nave_1" id="myTopnav">
+            <a href="evidencia1.html">Inicio</a>
+            <a href="#Contacto">Contacto</a>
+            <a href="#Ayuda">Ayuda</a>
+            <a href="#Politicas">Políticas de la tienda</a>
+            <a href="#Tienda">Tienda</a> 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myTopnav");
+                if (x.className === "nave_1"){
+                    x.className += " responsive";
+                } else {
+                    x.className = "nave_1"
+                }
+            }
+        </script>
+    </header>
+</body>
+</html>
 
 <head>
 
