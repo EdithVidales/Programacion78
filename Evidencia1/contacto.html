@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="detalles.css">
+    <link rel="stylesheet" href="contacto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
+    <link href="https://fonts.googleapis.com/css2?  family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="encabezado">    
@@ -54,5 +57,48 @@
             }
         </script>
     </header>
+
+
+    <h2 class="sobrenombre">Escríbenos</h2>
+
+
+    <form class="form">
+    
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required class="form_input">
+        </div>
+        <div>
+            <label for="email">Correo</label>
+            <input type="email" name="mail" id="mail" placeholder="usuario@dominio.xy" required class="form_input">
+        </div>
+        <div class="textarea">
+            <label for="asunto">Asunto</label>
+            <textarea class="form_input"  placeholder="Escriba aqui su mensaje" maxlength="200"></textarea >
+        </div>
+        <div>
+            <label for="telefono">Telefono</label>     
+            <input type="telefono" placeholder="(81) 26458701" class="form_input">           
+        </div>
+        <input type="submit" value="Solicitar" >
+
+    </form>
+
+
+    <footer>
+        <div class="correo">
+            <h4>info@mysite.com</h4>
+        </div>
+        <div class="derechos">
+            <h4> &copy2022 por Papeleria Skyblue</h4>
+        </div>
+    </footer>
+
+
+
+    
+        
+
+
 </body>
 </html>

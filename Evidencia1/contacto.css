@@ -1,6 +1,10 @@
 body {
+    margin: 0;
+    padding: 0;
     font-size: 10px;
     font-family: Arial,Helvetica,sans-serif;
+
+
 }
 
 /* .logo hace que la imagen del logo de la empresa y que la imagen del carrito de compras se
@@ -103,6 +107,91 @@ las barras del menú*/
         display: block;
         text-align: left;
     }
+}
+
+/* Sobrenombre (ESCRIBENOS)*/
+
+.sobrenombre{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+/* FORMULARIO */
+
+
+form {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 1em;
+    border: 2px solid rgb(79, 88, 136);
+    border-radius: 1em;
+
+  }
+
+
+
+
+
+
+
+
+label {
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 0;
+    width: 15%;
+    text-align: center;
+    
+}
+
+.form_input{
+    margin-top: 1em;
+    height: 2em;
+    border: none;
+    border-bottom: #000000 2px solid;
+    width: 80%;
+}
+
+.textarea{
+    margin: 1em auto;
+
+   
+}
+
+
+.textarea textarea{
+    resize: none;
+    min-height: 140px;  
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+input[type=submit]{
+
+    margin: 20px auto;
+    display: block;
+
+}
+
+input[type=submit]:hover{
+
+    background: #1a1557;
+    outline: #1a1557 1px solid;
+    color: white;
+    
+
+}
+
+
+
+footer div{
+    text-align: center;
+    font-size: 1.2em;
+
 }
 
 
