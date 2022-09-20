@@ -137,6 +137,12 @@ las barras del menú*/
     height: 30.5rem;
 }
 
+.cartas-carrusel2 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    height: 30.5rem;
+}
+
 .titulo-best-seller {
     height: auto;
 }
@@ -144,6 +150,10 @@ las barras del menú*/
 .titulo-best-seller {
     width: 850px;
     height: 67px;
+}
+
+.todos-productos {
+    margin: 50px 0px 50px;
 }
 
 .titulo-best-seller {
@@ -177,6 +187,10 @@ las barras del menú*/
 .slider {
     background-color: #fdfcfc;
     height: 19rem;
+}
+
+#autoWidth {
+    display: -webkit-inline-box;
 }
 
 .box a {
